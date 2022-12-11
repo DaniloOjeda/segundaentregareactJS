@@ -1,0 +1,39 @@
+.card{
+    position: relative;
+    margin: 10px 15px;
+    min-height: 500px;
+    width: 580px;
+    height: 760px;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.979);
+    background-color: aliceblue;
+    overflow: hidden;
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+}
+
+.card-favicon.favorite{
+    display: block;
+    background-color: orangered;
+    color: white;
+}
+
+.card-img{
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.card-detail{
+    padding: 12px 8px;
+}
+
+.card_priceTag{
+    color: rgb(96, 211, 173);
+    font-weight: bold;
+}
+
+.offerTag{
+    color: aqua;
+}
